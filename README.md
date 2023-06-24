@@ -29,3 +29,25 @@ In addition, the department also contains a save_load_game department that enabl
 Inheritance and polymorphism - A PIECE class is an abstract class that bequeaths its attributes to all types of tools in a game. 
 (The tool classes are: King, Queen, Rook, etc.)
 
+# serialization
+File types used by the program:
+A file that stores the names of all users who were registered in the game. File name: Chess_game_users.txt
+Automatically reads as soon as the game starts, loading the information into the program's memory.
+A file that saves the number of games ever played in the program. File name: Chess_game_counter.txt
+A file that stores all the information about a specific user's achievements, for example: oren.txt
+Including points earned in games, number of games played, and other parameters that can be seen in the program.
+List of movements made in a specific game, for example: game_log_2.txt
+A file that saves a game that was interrupted in the middle (a state saver), for example: Chess_savedgame_3.txt
+A study file of the rules of the game. File name: chess_rules.txt
+
+# Known Limitations/Issues
+It is not possible to play in front of the computer.
+Requires both players to play on the same computer.
+A draw is decided by the players.
+
+# Expansion ideas
+Limitation of playing in time. 
+Follow-up of moves to diagnose a draw (a draw of several repeated moves).
+A more advanced GUI that will allow players to click on the tools.
+Better graphics.
+Play against the computer.
