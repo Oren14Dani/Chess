@@ -1,7 +1,7 @@
-# Chess
+# Chess Game
 
 ## Introduction - a brief description of the program
-+ The program allows you to play a chess game between 2 real players. \n
++ The program allows you to play a chess game between 2 real players.
 + Interfacing is done through the Windows console screen.
 + The game has a user database stored in a .txt file, and players are identified by entering the player's name.
 + And in order to play it is necessary to have 2 players log in.
